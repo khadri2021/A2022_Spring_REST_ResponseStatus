@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "953c5c04-fdb6-4692-b446-cfeea212ac3f",
+		"name": "A2022_Spring_REST_ResponseStatus",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29781038"
+	},
+	"item": [
+		{
+			"name": "store student",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/A2022_Spring_REST_ResponseStatus/store/student",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"A2022_Spring_REST_ResponseStatus",
+						"store",
+						"student"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get student",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/A2022_Spring_REST_ResponseStatus/get/student",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"A2022_Spring_REST_ResponseStatus",
+						"get",
+						"student"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
